@@ -1,11 +1,11 @@
-# House Pricing Predictor
+# House Pricing Predictor 🌆
 The purpose for this project is to learn about machine learning with Python and its libraries. 
 Here the task is to produce and exploratory analysis and build predictive models for our housing dataset 
 obtained from Kaggle.
 
 View the California Housing Prices datset here: https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
-## Report Summary
+## Report Summary 📊
 ### 1. Data Loading and Cleaning:
 - The housing dataset is loaded into a pandas DataFrame.
 - The information about the dataset is displayed, showing the columns and their data types.
@@ -33,7 +33,7 @@ View the California Housing Prices datset here: https://www.kaggle.com/datasets/
 - The specified parameter grid includes different values for 'n_estimators', 'min_samples_split', and 'max_depth'.
 - The best estimator is obtained using `best_estimator_`, and its performance is evaluated on the test data.
 
-## Summary
+## Summary 📝
 The California Housing Prices project aims to perform an exploratory analysis and develop predictive models using machine learning techniques within Python. The initial steps involve loading and cleaning the housing dataset, followed by data exploration and visualization. Feature engineering techniques are applied, including logarithmic transformation and one-hot encoding. Subsequently, both linear regression and random forest regression models are trained and evaluated on the preprocessed data. Additionally, hyperparameter tuning is performed for the random forest model using grid search and cross-validation. The project provides insights into feature relationships, identitfies important predictors, and assesses the predictive performance of the models. It serves as a leearning exercise for machine learning with Python and showcases techniques for data preprocessing, model training/testing, and evaluation. Results obtained from this model, in having a score of around 0.814281, the score being the coefficient of determination of R-squared. Such score is achieved by the best random forest regressor on the test data. It indicates how well our model fits the test data, and since we have a relatively high value, it implies that it is a good fit. Through the process of training with random forest model and also hyperparameter tuning, we bumped the score from around 67.06% to around 81.44%. So our model explains approximately 81.44% of the variance in the target variable based on the test data.
 
 ## Techonologies
