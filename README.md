@@ -5,7 +5,7 @@ obtained from Kaggle.
 
 View the California Housing Prices datset here: https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
-## Report Summary 📊
+## Report Process 📊
 ### 1. Data Loading and Cleaning:
 - The housing dataset is loaded into a pandas DataFrame.
 - The information about the dataset is displayed, showing the columns and their data types.
