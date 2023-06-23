@@ -1,6 +1,6 @@
 # House Pricing Predictor 🌆
 
-## Purpose
+## Purpose ❓
 The purpose for this project is to learn about machine learning with Python and its libraries. 
 Here the task is to produce and exploratory analysis and build predictive models for our housing dataset 
 obtained from Kaggle.
